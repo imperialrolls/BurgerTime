@@ -1,0 +1,33 @@
+{
+  "name": "burgertime",
+  "version": "1.0.0",
+  "description": "An app using Node, Express, Handlebars, ORM, MySQL and MVC design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imperialrolls/BurgerTime.git"
+  },
+  "keywords": [
+    "node",
+    "express.js",
+    "handlebars.js",
+    "orm",
+    "MySQL",
+    "MVC"
+  ],
+  "author": "Christopher Rolls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imperialrolls/BurgerTime/issues"
+  },
+  "homepage": "https://github.com/imperialrolls/BurgerTime#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
