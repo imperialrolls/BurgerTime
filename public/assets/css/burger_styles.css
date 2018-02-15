@@ -1,0 +1,13 @@
+html, body {
+  /* background-image: url(../img/burgertimegame.png);
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; */
+	background-color: #ffffff;
+}
+
+html, body {
+  font-family: 'Lobster', cursive;
+  font-family: 'Open Sans', sans-serif;
+}

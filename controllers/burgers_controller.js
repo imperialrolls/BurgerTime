@@ -4,12 +4,11 @@ var burger = require("../models/burger.js")
 var router = express.Router()
 
 router.get("/", (req, res) => {
-  res.render("index")
-})
-
-router.get("/api/burgers", (req, res) => {
   burger.selectAll().then(data => {
-    res.json(data)
+    const allBurgers = {
+      burgers: data
+    }
+    res.render("index" , allBurgers)
   })
 })
 

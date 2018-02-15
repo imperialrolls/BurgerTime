@@ -1,5 +1,5 @@
 // Import (require) connection.js
-var connection = require("./connection.js")
+var connection = require("./connection.js");
 
 
 // create the methods that will execute the necessary MySQL commands in the
