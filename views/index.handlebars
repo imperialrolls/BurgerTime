@@ -1,16 +1,25 @@
-<div class="jumbotron bg-info text-center px-5 py-2">
-  <h1>Burger Time</h1>
-  <form class="form-select">
-    <input class="form-control" type="text" id="burger" placeholder="Describe your dream burger...">
-    </input>
-    <button class="btn btn-primary my-3 px-4" type="submit" id="burger-submit">add to list</button>
-  </form>
-</div>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><h1>DREAM BURGER</h1></a>
+  </nav>
+
+      <div class="row center">
+        <div class="col-12 text-center">
+        </div>
+
+        <div class="col-12 text-center">
+        <form class="form-select">
+          <input class="form-control" type="text" id="burger" placeholder="Describe your dream burger...">
+          </input>
+          <button class="btn btn-primary my-3 px-4" type="submit" id="burger-submit">add to bucket list</button>
+        </form>
+        </div>
+    </div>
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h1>UNEATEN</h1>
+      <h1>dreams</h1>
       {{#each burgers}}
         {{#unless devoured}}
         <button type="button" id="{{ this.id }}" class="w-100 btn btn-primary my-3 eat">{{this.burger_name}}</button>
@@ -19,7 +28,7 @@
     </div>
 
     <div class="col-md-6">
-      <h1>EATEN</h1>
+      <h1>devoured dreams</h1>
       {{#each burgers}}
         {{#if devoured}}
       <button type="button" id="{{ this.id }}" class="w-100 btn btn-primary my-3">{{this.burger_name}}</button>

@@ -1,9 +1,9 @@
 html, body {
-  /* background-image: url(../img/burgertimegame.png);
+  background-image: url(../img/bg.jpeg);
   background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center; */
+	background-position: center;
 	background-color: #ffffff;
 }
 
@@ -12,6 +12,13 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+.navbar-brand h1 {
+  color: black;
+  font-stretch: extra-expanded;
+}
+
 h1 {
+  color: white;
   text-align: center;
 }
